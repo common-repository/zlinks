@@ -1,0 +1,69 @@
+.scrolldiv_parentContainer{
+	width:380px;
+	height:100%;
+	overflow:hidden;
+	border:1px solid #D2D2D2;
+	float:left;
+	position:relative;
+} 
+
+.scrolldiv_content{
+	padding: 5px;
+	position:relative;
+}
+
+.scrolldiv_slider{
+	width:15px;
+	margin-left:2px;
+/*	height:400px;*/
+	float:right;
+	padding-right:4px;
+}
+
+.scrolldiv_scrollbar{
+	width:15px;
+/*	height:360px;*/
+	border:1px solid #D2D2D2;
+	position:relative;
+}
+
+.scrolldiv_theScroll{
+	margin:1px;
+	width:13px;
+	height:13px;
+	background-color: #A4A4A4;
+	position:absolute;	
+	top:0px;
+	left:0px;
+	cursor:pointer;
+}
+
+.scrolldiv_scrollUp, .scrolldiv_scrollDown{
+	width:15px;
+	height:15px;
+	border:1px solid #D2D2D2;
+	color: #BC8FBD;
+	text-align:center;
+	font-size:16px;
+	line-height:16px;
+	cursor:pointer;
+}
+
+.scrolldiv_scrollUp{
+	margin-bottom:2px;
+	background: url(../imgs/arrow_up.gif) center;	
+}
+
+.scrolldiv_scrollDown{
+	margin-top:2px;
+	background: url(../imgs/arrow_down.gif) center;	
+}
+
+.scrolldiv_scrollDown span, .scrolldiv_scrollUp span{
+	font-family: Symbol;
+}
+
+.content_container {
+	width:405px;
+/*	height:400px;*/
+}

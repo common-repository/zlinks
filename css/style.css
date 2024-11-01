@@ -1,0 +1,140 @@
+.zitgist_popup, .zitgist_popup_ie {
+	position: absolute;
+	background:#E6E6E6 url(../imgs/menu_grad.jpg) repeat-x scroll center top;
+	border:1px solid #BCBEB0;	
+	z-index:1000;
+}
+
+.zitgist_popup_ie {
+	padding-bottom:3px;
+}
+
+
+.zitgist_popup a {
+	text-decoration:none;
+	color:#2277DD;
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;	
+}
+
+.header_container {
+	padding: 2px;
+	height:16px;
+	padding-bottom:8px;
+	float:left;
+	width:400px;
+	font-size:11px;
+}
+
+.header_container a {
+	font-size:11px;
+}
+
+
+.header_container_annotations {
+	padding: 2px;
+	height:16px;
+	padding-bottom:8px;
+	width:400px;
+}
+
+
+.header_container a:hover{
+	text-decoration:underline;
+}
+
+.zitgist_menu {
+	padding:2px;
+	text-align:left;
+}
+
+.zitgist_menu div:hover{
+	background-color: #C5C5C5;
+}
+
+.zitgist_menu_item {
+	padding:1px 5px 1px 5px;
+}
+
+.zitgist_menu_img {
+	position:relative;
+	padding: 0px;
+	padding-right: 5px;
+	top:3px;
+}
+
+.zitgist_menu_separator {
+	border-bottom: 1px solid #999999;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.zitgist_logo_img {
+	position:relative;
+}
+
+.annotations_container{
+	width: 400px;
+/*	padding-top: 40px;*/
+}
+
+.editor_annotation_container {
+	padding:3px;
+}
+
+.annotation_button {
+	cursor:pointer;
+}
+
+.btn_annotation_container{
+	padding:10px;
+	text-align:center;
+}
+
+.annotation_editor {
+	width: 380px;
+	height:100px;
+}
+
+.annotation_item_container {
+}
+
+.annotation_item_header {
+	width: 400px;
+}
+
+.annotation_item_body {
+	text-align:left;
+	padding:3px;
+}
+
+.zitgist_popup_annotations_menu_header {
+	padding:5px;
+	background-color:#C5C5C5;
+}
+
+
+.seemore_dimmer_content {
+	position: absolute;
+	background:#E6E6E6 url(../imgs/menu_grad.jpg) repeat-x scroll center top;
+	width: 640px;
+	height: 480px;
+	border: 2px solid #333333;
+	padding: 1em;
+	font-size:150%;
+}
+
+.close_dimmer_btn {
+	cursor:pointer;
+	float:right;
+	position:relative;
+}
+
+.waiting_container {
+	width:100%;
+	text-align:center;
+}
